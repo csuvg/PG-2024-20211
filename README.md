@@ -9,7 +9,7 @@
 ## Descripción  
 Este proyecto tiene como objetivo desarrollar un sistema para identificar voces generadas artificialmente (deepfake) utilizando una variedad de métodos, como:  
 - Redes neuronales (LSTM).  
-- Modelos tradicionales de aprendizaje automático (SVM, KNN, RandomForest, Etc) y comparar sus resultados al utilizar datos .  
+- Modelos tradicionales de aprendizaje automático (SVM, KNN, RandomForest, Etc) y comparar sus resultados al utilizar filtros estadísticos en lo obtenido de los audios.  
 - Comparación de resultados con la capacidad de reconocimiento humano.  
 
 Se utilizó el conjunto de datos **ASVspoof 2021** para entrenar y evaluar los modelos, con el propósito de combatir el uso indebido de tecnologías de generación de voz y proteger la integridad de las comunicaciones digitales. Especificamente para el entrenamiento y evaluación de los modelos se utilizo el conjunto de datos DF que se refiere a DeepFake. 
